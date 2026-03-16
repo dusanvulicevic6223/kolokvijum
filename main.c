@@ -12,13 +12,10 @@ int main() {
     printf("Broj indeksa: %s\n", indeks);
     printf("Godina rodjenja: %d\n", godina);
 
-    if ((godina % 4 == 0) {
+    if (godina % 4 == 0) {
         printf("Rodjeni ste u prestupnoj godini.\n");
     } else {
         printf("Niste rodjeni u prestupnoj godini.\n");
     }
 	return 0;
-}
-
-    return 0;
 }
